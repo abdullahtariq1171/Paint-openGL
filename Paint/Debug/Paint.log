@@ -1,0 +1,43 @@
+﻿Build started 5/30/2014 10:45:57 AM.
+     1>Project "C:\Users\Moon\Desktop\Paint\Paint\Paint.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Circle.cpp Color_RGB.cpp Curve.cpp DrawingArea.cpp Line.cpp OpenShape.cpp Point.cpp Polygon.cpp Rectangle.cpp Shape.cpp Text.cpp Triangle.cpp
+         Triangle.cpp
+         Text.cpp
+         Shape.cpp
+         Rectangle.cpp
+         Polygon.cpp
+         Point.cpp
+         OpenShape.cpp
+         Line.cpp
+         DrawingArea.cpp
+     1>c:\users\moon\desktop\paint\paint\drawingarea.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\moon\desktop\paint\paint\drawingarea.cpp(221): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\moon\desktop\paint\paint\drawingarea.cpp(410): warning C4018: '<' : signed/unsigned mismatch
+         Curve.cpp
+         Color_RGB.cpp
+         Circle.cpp
+         Generating Code...
+     1>c:\users\moon\desktop\paint\paint\drawingarea.cpp(407): warning C4715: 'DrawingArea::DetermineShapeType' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D GLUT_BUILDING_LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Driver.cpp
+         Driver.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Moon\Desktop\Paint\Debug\Paint.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Moon\Desktop\Paint\Debug\Paint.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Moon\Desktop\Paint\Debug\Paint.lib" /MACHINE:X86 Debug\Circle.obj
+         Debug\Color_RGB.obj
+         Debug\Curve.obj
+         Debug\DrawingArea.obj
+         Debug\Driver.obj
+         Debug\Line.obj
+         Debug\OpenShape.obj
+         Debug\Point.obj
+         Debug\Polygon.obj
+         Debug\Rectangle.obj
+         Debug\Shape.obj
+         Debug\Text.obj
+         Debug\Triangle.obj
+         Paint.vcxproj -> C:\Users\Moon\Desktop\Paint\Debug\Paint.exe
+     1>Done Building Project "C:\Users\Moon\Desktop\Paint\Paint\Paint.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.47
